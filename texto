@@ -1,0 +1,244 @@
+TEXTO = {
+    'texto0':'''É maio de 2080. Desde a infância você sonhava em ser um(a) integrante da Unidade de
+Defesa Urbana e Assalto Pesado, unidade de elite da polícia que utiliza exotrajes armados e
+agora esse sonho se concretizou. Depois de meses você concluiu o seu treinamento e é quase
+imediatamente convocado(a) para sua primeira missão. Você está no auditório do QG junto
+com seus companheiros. O Comandante Wagner começa a instrução colocando-os a par de
+uma situação crítica: o hospital da universidade federal foi invadido por ecoterroristas liderados
+pelo notório criminoso Victor Rossut para libertar comparsas. O prédio está cercado e eles
+exigem um transporte aéreo para fugirem ou irão começar a matar os médicos e pacientes
+dentro de quatro horas.
+“O hospital foi transformado em uma fortaleza e um ataque em massa decretaria o
+extermínio de todos os civis. Um de vocês deve entrar lá, sozinho, e a partir do telhado chegar
+ao bloco cirúrgico, que é onde estão os reféns. Uma vez lá deve garantir a segurança dos civis
+até invadirmos o prédio com força total. Tudo muito simples e muito rápido. Quem será
+voluntário?”
+Essas foram as ultimas palavras que você ouviu antes dos oficias apontarem o dedo
+indicador para você e o(a) escolherem como “voluntário(a)”''',
+
+'texto1' : '''Você está agora em um transporte aéreo militar se aproximando do hospital. Enquanto
+se aproxima você vê disparos e explosões. Deve estar um inferno lá embaixo. “Desceremos
+em 2 minutos!” Com essas palavras você se prepara para a descida. A sua armadura, uma
+incrível peça de alta tecnologia o(a) aguarda. Feita de titânico a sua blindagem é suficiente
+para protegê-lo(a) de todas as armas de fogo de uso pessoal. Seu esqueleto fornece força
+sobre-humana e seus sistemas de mira por infravermelho e laser garantem disparos precisos.
+Por fim, seu arsenal é constituído de uma metralhada desencapsulada .30, um fuzil laser militar
+e um lança-chamas. Você a veste e imediatamente ela se fecha e se ajusta ao seu corpo. Após
+inicializar seus sistemas você se prepara posicionando-se na porta do transporte. “Prepare-se!
+Vamos sobrevoar o telhado por apenas alguns segundos!” Segundos mais tarde o transporte
+está sobrevoando o hospital. Há forte artilharia inimiga. A fuselagem é atingida várias vezes.
+“Pule!” Nesse momento o piloto é atingido e cai sobre os instrumentos.''' ,
+
+'texto2' : '''Você se esgueira pelas sombras na tentativa de passar despercebido, mas sua
+armadura não é nada discreta! Eles perceberam a sua presença. Dois abrem fogo! Você é atin-
+gido, mas o único efeito produzido é a surpresa dos próprios terroristas ao verem as balasrefletindo em sua blindagem. Você contra-ataca e em questão de segundos derruba os dois
+com sua metralhada, entretanto esses segundos foram o suficiente para o terceiro terrorista
+avisar da sua presença para os demais. Todos os reféns são assassinados nos minutos
+seguintes. Sua missão falhou.''',
+
+'texto03': ''' Você o solta e o sujeito não consegue nem se arrastar, mas ainda está consciente. Você
+diz que não vai matá-lo e pergunta por Victor, o líder dos terroristas. Ele fala que Victor está no
+bloco cirúrgico junto com os reféns e espera um ataque vindo dos fundos do prédio. Você
+pergunta sobre usar o elevador principal: “Nada feito, está cheio de explosivo, mas se você
+quiser usá-lo deve seguir para o segundo andar e na porta do elevador digitar o código 17.”
+Com isso você o amarra e segue em frente pensando no que ele acaba de dizer. Se Victor
+espera um ataque pelos fundos, confiando em sua armadilha no elevador principal, seria muito
+fácil surpreendê-lo.''',
+
+'texto4': '''Você segue para o sexto andar. As portas se abrem para um corredor longo com várias
+portas. Estranhamente não há qualquer vigia. ''',
+
+'texto5' : ''' Sem muitas dificuldades você derruba os dois com uma única rajada do seu fuzil laser
+militar.''',
+
+'texto6' : '''Com um gesto você quebra o pescoço dele sem dificuldade. Se desejar revistar as
+portas, que possivelmente são quartos de pacientes''',
+
+'texto7' : '''Com Victor em seu poder você ordena: “Larguem as armas imediatamente e ninguém
+será ferido!” Ao fim de suas palavras todos os terroristas abrem fogo! Você se joga no chão,
+mas Victor é fulminado por centenas de disparos de seus comparsas. Parece que ele não era
+um bom chefe.''',
+
+'texto8' : '''Você abre as caixas e encontra roupas sujas e instrumentos médicos a serem
+esterilizados, nada que lhe ajude, mas parece que os terroristas ouviram você e estão se
+aproximando. O que você quer fazer? Abrir a porta e atacar? Vá para 18. Mas se quiser voltar
+para o elevador vá para 37.09. Você abre a porta na sua frente e vê uma sala imensa, com dezenas de membros
+biônicos pendurados no teto e um imenso congelador transparente com pernas e braços
+clonados. No fundo da sala há uma porta de elevador que parece ser o principal. Não há mais
+nada aqui, mas parece que alguém esteve aqui há pouco tempo.''',
+
+'texto9' : '''Você abre a porta na sua frente e vê uma sala imensa, com dezenas de membros
+biônicos pendurados no teto e um imenso congelador transparente com pernas e braços
+clonados. No fundo da sala há uma porta de elevador que parece ser o principal. Não há mais
+nada aqui, mas parece que alguém esteve aqui há pouco tempo.''',
+
+'texto10' : '''Pensando em encontra algo que lhe ajude você parte para o terceiro andar, o bloco de
+internação. Chegando lá você encontra um corredor enorme e muitas portas. No meio do
+corredor há um terrorista armado que o(a) viu chegar! Ele está armado com um fuzil laser
+militar, uma arma capaz de perfurar sua blindagem! O que vai fazer?''',
+
+'texto11' : '''Você caminha pelo corredor, que possui paredes brancas e quadros, quando você chega
+ao seu fim. Há uma porta de elevador. É o elevador principal do prédio que está funcionando.
+Você quer tentar usar o elevador? ''',
+
+'texto12' : ''' Você entra no elevador e digita o código 10. Depois de alguns segundos as portas se
+fecham e você ouve um clique. O clique do detonador. O elevador explode e é reduzido a
+destroços...''',
+
+'texto13' : '''Com a vantagem da surpresa você ataca. Suas armas disparam incessantemente e
+causam um devastador estrago. Você é atingido por alguns projéteis, mas nenhum lhe causa
+dano.''',
+
+'texto14' : '''Quando você abre a porta da direita seus sensores lhe alertam: além dos medicamentos
+há alguém aqui dentro. É um ser humano, porte adulto, apresenta freqüência cardíaca
+acelerada e anomalias em seu sistema nervoso. Tudo indica que ele está drogado. Você se
+aproxima sem dificuldades. Ele só percebe a sua aproximação quando você o ergue a mais de
+um metro do solo pelo colarinho. ''',
+
+'texto15' : '''Você começa a investigar todas as portas. A primeira é uma cozinha, sem nada de
+importante. A segunda é um pequeno depósito de mantimentos. A terceira é uma sala deesterilização e a ultima é uma sala com vários armários. Quando deixava a sala você ouve um
+barulho vindo de um dos armários. É a respiração ofegante de alguém.''',
+
+'texto16' : '''Você deixa as sombras e parte em direção ao trio abrindo fogo com a suas armas. Seu
+ataque é devastador que em segundos dois terroristas tombam mortos, um com o peito varado
+e o outro carbonizado em instantes. O terceiro terrorista tenta usar o seu rádio, mas você é
+mais rápido. Com um soco você o atinge no peito e esmaga o seu coração! Os três estão
+mortos e sua passagem para o elevador esta agora liberada. Sem mais atrasos você seque em
+frente.''',
+
+'texto17' :'''Sem pensar muito você abre fogo com as suas armas. O seu alvo é atingido sem chance
+de reação e cai.''',
+
+'texto18' : '''Com movimentos rápidos você abre a porta e abre fogo! Sua visão é clara: quatro
+homens armados caminhando pelo corredor. Um é atingido por uma rajada da sua metralhada
+e o outro é transpassado pelo seu laser. Os dois que restam disparam repetidas vezes em sua
+direção.''',
+
+'texto19' :''' Você entra no elevador e digita o código 17. As portas se fecham e você seleciona o
+quarto andar. O elevador sobe e em instantes as portas se abrem para uma enorme sala cheia
+de repartições transparentes onde se pode ver mesas e instrumentos. Há uma grande
+quantidade de reféns algemados em um canto da sala e um contingente de cerca de 30
+homens com suas armas apontadas para o elevador de serviço. Além de tudo isso você vê
+Victor, o líder terrorista, de costas para você! Sem pensar duas vezes você salta em sua
+direção e o domina pelo pescoço. Os outros terroristas se viram surpresos para você e
+apontam as armas. Por enquanto os reféns estão longe da linha de fogo. ''',
+
+'texto20' : '''Você aperta o botão e em instantes o elevador chega. Você entra e escolhe o andar. O
+elevador começa a subir com aparente normalidade até que escuta um estrondo! Você é
+jogado contra o teto com o rápido mergulho do equipamento. O impacto do elevador com o
+fundo do fosso produz uma explosão que é sentida por todo o prédio.''',
+
+'texto21' : '''Você está a caminho do segundo andar. O elevador demora alguns segundos, tempo
+que o(a) faz se lembrar dos seus companheiros que aguardam do lado de fora. Logo as portas
+se abrem para um curto corredor que termina em uma sala minúscula com caixas de papelão e
+uma porta que leva ao corredor principal. Junto à porta você ouve vozes do outro lado. São
+quatro terroristas.''',
+
+'texto22' : '''Ao abrir a porta você vê uma grande sala, com muitos armários de vidro cheios de
+medicamentos, seringas e ampolas. No centro há um corpo baleado que parece ser de um
+médico. Não há nada mais para ser visto aqui.''',
+
+'texto23' : '''Seguindo pelo corredor você chega à porta do elevador principal. Há um sistema de
+senhas instalado neste elevador e você deve digitar a senha correta para o elevador funcionar.''',
+
+'texto24' : '''Você deixa o elevador se esquivando para tentar se aproximar do infeliz. Ele dispara em
+desespero e consegue um tiro de sorte! O disparo acertou você na altura da cintura e danificou
+os sistemas de manobralidade do exoesqueleto, diminuindo a sua agilidade. Sua armadura foi
+danificada. Você o alcança, o desarma e o joga longe. Atordoado você o levanta pelo
+pescoço: “Onde está Victor?” Você pergunta. Ele responde que Victor está no bloco cirúrgico
+com os reféns e espera um ataque vindo dos fundos do prédio já que ele transformou o
+elevador principal em uma armadilha. Mas segundo ele é possível utilizá-lo. Ele explica que se
+você deseja usá-lo deve subir nele no segundo andar e usar o código 10.''',
+
+'texto25' : '''Você sente enorme dificuldade para se esquivar dos disparos. Apesar de sua armadura
+resistir bem aos disparos ela não resiste a repetidos impactos e se racha. Seus sistemas são
+desabilitados, o gerador de energia do traje deixa de funcionar e a reserva de munição é
+atingida! Uma grande explosão aniquila os terroristas e você.''',
+
+'texto26' : '''Você seque para o quinto andar. Quando chega e as portas se abrem você vê um
+corredor curto onde há três portas, uma à esquerda, uma à direita e uma no fundo, cada qual
+com uma placa.O que você vai fazer?''',
+
+'texto27' : '''Pensando em acabar logo com tudo isso você segue para o quarto andar, onde fica o
+bloco cirúrgico. Ao chegar às portas do elevador se abrem para uma sala imensa, dividida em
+cubículos por paredes de plástico transparente. Podem ser vistas as mesas e aparelhos, as
+dezenas de reféns e a multidão de terroristas! Você inicia uma varredura com seus sensores.
+Eles contam 27 reféns e 33 terroristas. O líder deles, Victor, que se posicionou no fundo da
+sala dá a ordem para todos os terroristas abrirem fogo contra você! Um grande tiroteio começa.
+Sua armadura resiste bem enquanto você devolve o fogo. Seus disparos são precisos. Logo
+você derruba quase a metade dos inimigos, mas você não encontra mais o líder dos terroristas.
+Victor parece que conseguiu fugir com aqueles que veio resgatar. Enquanto luta com os
+criminosos que restam você aciona seus sensores na tentativa de encontrar Victor, mas você
+não tem tempo de rastreá-lo. Sem aviso todo o bloco cirúrgico é obliterado por uma violenta
+explosão.''',
+
+'texto28' : '''Você pula. A queda é de quase 20m e o seu impacto abre duas pequenas crateras no
+teto correspondentes a seus pés. Os sistemas de amortecimento da armadura funcionam
+perfeitamente e você não sofre nenhum dano. Ao olhar para cima você contempla a terrível
+visão de ver o seu transporte reduzido a escombros devido ao impacto direto de um míssil
+terra-ar. Após desviar dos destroços você se posiciona atrás de alguns exaustores de ar. À sua
+frente há a entrada para o elevador de serviço, seu alvo, mas até lá há três terroristas, todos
+armados e rindo.''',
+
+'texto29' : '''Com um golpe você o deixa inconsciente, esmaga a sua arma com uma das mãos e
+segue em frente.''',
+
+'texto30' : '''Com um rápido movimento de braço você golpeia e quebra o pescoço do terrorista.''',
+
+'texto31' : '''Você abre todas as portas e revista rapidamente cada sala. Após alguns minutos você
+não encontra nada de útil e volta para o elevador.''',
+
+'texto32': '''Com um movimento rápido de pulso você parte o pescoço de Victor. Ao verem o corpo
+de seu líder cair ao chão os terroristas abrem fogo!''',
+
+'texto33' : '''Cada porta é um quarto. Há alguns corpos de pacientes que estavam em tratamento
+intensivo e que morreram pela falta de cuidados. Além disso, não há mais nada de interessante
+e você volta para o elevador.''',
+
+'texto34' : '''Você fica no transporte e assume os controles sem dificuldade. Você já pilotou
+transportes como estes e examina o piloto. Ele está morto. Você se afasta do telhado do
+hospital, mas não consegue escapar de um disparo laser que atinge os motores. Sem chance
+de controlar o transporte você tenta abandoná-lo, mas antes disso um míssil disparado do
+terraço o fulmina em pleno ar.''',
+
+'texto35': '''É melhor buscar ajuda. O caminho para as tropas esta quase livre e você usa o elevador
+para descer. Entretanto Victor deixou um presente. Explosivos que detonam assim você chega
+ao primeiro andar.''',
+
+'texto36' : '''Você se aproxima com cuidado. Seus sensores registram uma pulsação e ao abrir o
+armário você encontra uma mulher. Ela aparenta ter por volta 30 anos e implora para não ser
+morta. Você se identifica e aos poucos ela se acalma. Ela se apresenta como a Doutora
+Christine, uma médica que trabalha neste hospital há 3 anos. Você a instrui para não sair daqui
+e ela lhe conta que ouviu dos terroristas que foram instalados explosivos no elevador que
+detonam quando alguém desce até o primeiro andar. Depois de agradecer você parte em
+direção ao elevador principal no fim do corredor.''',
+
+'texto37' : '''Após entrar no elevador de serviço você consulta os mapas do hospital. Com esse
+elevador você possui acesso a 5 dos 6 andares do prédio, sendo um deles o bloco cirúrgico
+onde estão os reféns. Todavia, um ataque direto seria arriscado demais.
+Para qual andar você deseja ir?''',
+
+'texto38' : '''Os quatro estão mortos. À sua frente há um corredor com cinco portas, duas à direita,
+duas à esquerda e a porta do elevador principal à frente.''',
+
+'texto39' : '''Com uma rajada de metralhadora você transforma o armário em uma peneira e vê o
+sangue escorrer pelos buracos feitos. Ao abrir a porta do armário você encontra o corpo de
+uma mulher vestindo um macacão com a identificação “Doutora Christine”. Depois disso você
+segue em frente e chega ao fim do corredor que termina na porta do elevador. ''',
+
+'texto40' : '''Com Victor morto a única coisa que lhe resta é lutar. Suas armas disparam sem parar e
+muitos terroristas caem. A munição da metralhada acaba e você passa a usar o seu fuzil laser
+militar até a célula de energia se esgotar. O lança-chamas é a arma que lhe resta enquanto os
+terroristas concentram o fogo em você. A blindagem da sua armadura começa a ser perfurada
+e seus sistemas entram em falha catastrófica. Você é atingido inúmeras vezes. Seu corpo é
+ferido e a armadura entra em colapso absoluto.
+Prostrado e inerte você encontrou o seu limite quando as janelas são estilhaçadas. Seus
+colegas da UDUAP invadem o prédio e entram em batalha. Depois de um rápido tiroteio o
+combate termina sem baixas. Você é socorrido ali mesmo. Sua armadura é retirada e um
+transporte o leva para receber atendimento médico de urgência.
+Depois de duas semanas de internação e mais duas semanas de recuperação você já está
+em ótima forma e de volta ao serviço. O incidente foi encerrado com a grande parte dos
+terroristas mortos ou presos e com a morte do seu líder esse grupo se dissolveu. Você recebe
+uma promoção e uma medalha de bravura. Nada mal para a sua primeira missão.'''
+
+}
