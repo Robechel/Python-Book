@@ -1,0 +1,397 @@
+import PySimpleGUI as sg
+from texto import TEXTO
+sg.theme('dark grey 13') 
+
+
+layout_principal = [
+    [sg.Text(TEXTO['texto0'])],
+    [sg.Button('Vamos nessa!'), sg.Button('Sair')]
+]
+
+janela_principal = sg.Window('U.D.U.A.P.', layout_principal)
+evento, valor = janela_principal.read()
+while True:
+    
+    #Função do botão sair
+    if evento == sg.WIN_CLOSED or evento == 'Sair':
+        break
+
+    if evento == 'Vamos nessa!' or evento == 'Tentar novamente?':
+        janela_principal.close()
+        texto1 = [
+            [sg.Text(TEXTO['texto1'])],
+            [sg.Button('VAMOS PULAR!'),sg.Button('VAMOS ASSUMIR O CONTROLE')] 
+            ] 
+        #Exibe a janela para o usuário
+        janela_1 = sg.Window('U.D.U.A.P.', texto1)
+        evento, valores = janela_1.read() 
+        janela_1.close()
+
+    if evento == 'VAMOS PULAR!':
+        texto28 = [
+            [sg.Text(TEXTO['texto28'])],
+            [sg.Button('Vamos para o combate'),sg.Button('Ir escondido')] 
+            ] 
+        janela_28 = sg.Window('U.D.U.A.P.', texto28)
+        evento, valores = janela_28.read() 
+        janela_28.close()
+
+    if evento == 'VAMOS ASSUMIR O CONTROLE':
+        texto34 = [
+            [sg.Text(TEXTO['texto34'])],
+            [sg.Button('Tentar novamente?'),sg.Button('Sair')]
+            ] 
+        janela_34 = sg.Window('U.D.U.A.P.', texto34)
+        evento, valores = janela_34.read()  
+        janela_34.close()
+
+    if evento == 'Tentar novamente?':        
+        layout_principal = [
+            [sg.Text(TEXTO['texto0'])],
+            [sg.Button('Vamos nessa!'), sg.Button('Sair')]
+                    ]       
+        janela_principal = sg.Window('U.D.U.A.P.', layout_principal)
+        evento, valor = janela_principal.read()
+        janela_principal.close()
+
+    if evento == 'Ir escondido':
+        texto2 = [
+            [sg.Text(TEXTO['texto2'])],
+            [sg.Button('Tentar novamente?'),sg.Button('Sair')]
+            ] 
+        janela_2 = sg.Window('U.D.U.A.P.', texto2)
+        evento, valores = janela_2.read()  
+        janela_2.close()
+
+    if evento == 'Não vamos matar':
+        texto3 = [
+            [sg.Text(TEXTO['texto3'])],
+            [sg.Button('Vamos para o quinto andar!')] 
+            ] 
+        janela_3 = sg.Window('U.D.U.A.P.', texto3)
+        evento, valores = janela_3.read() 
+        janela_3.close()
+
+    if evento == 'Vamos para o sexto andar!':
+        texto4 = [
+            [sg.Text(TEXTO['texto4'])],
+            [sg.Button('Ir para o elevador principal'),sg.Button('Vamos até o fim do corredor'), sg.Button('Revistar as portas')] 
+            ] 
+        janela_4 = sg.Window('U.D.U.A.P.', texto4)
+        evento, valores = janela_4.read() 
+        janela_4.close()
+
+    if evento == 'Minha armadura está OK':
+        texto5 = [
+            [sg.Text(TEXTO['texto5'])],
+            [sg.Button('Você não foi atingido')] 
+            ] 
+        janela_5 = sg.Window('U.D.U.A.P.', texto5)
+        evento, valores = janela_5.read() 
+        janela_5.close()
+
+    if evento == 'Vou matar!':
+        texto6 = [
+            [sg.Text(TEXTO['texto6'])],
+            [sg.Button('Ir para o elevador principal'),sg.Button('Revistar as portas')] 
+            ] 
+        janela_6 = sg.Window('U.D.U.A.P.', texto6)
+        evento, valores = janela_6.read() 
+        janela_6.close()
+
+    if evento == 'Usar Vitor como escudo':
+        texto7 = [
+            [sg.Text(TEXTO['texto7'])],
+            [sg.Button('Vitor morreu!!!')] 
+            ] 
+        janela_7 = sg.Window('U.D.U.A.P.', texto7)
+        evento, valores = janela_7.read() 
+        sg.theme('BluePurple') 
+        janela_7.close()
+
+    if evento == 'Ver o que tem nas caixas':
+        texto8 = [
+            [sg.Text(TEXTO['texto8'])],
+            [sg.Button('Ir para o elevador principal'),sg.Button('Abrir a porta e atacar')] 
+            ] 
+        janela_8 = sg.Window('U.D.U.A.P.', texto8)
+        evento, valores = janela_8.read() 
+        janela_8.close()
+
+    if evento == 'Entrar na porta em frente':
+        texto9 = [
+            [sg.Text(TEXTO['texto9'])],
+            [sg.Button('Vamos para o quinto andar!'),sg.Button('Você quer tentar usar o elevador')] 
+            ] 
+        janela_9 = sg.Window('U.D.U.A.P.', texto9)
+        evento, valores = janela_9.read() 
+        janela_9.close()
+
+    if evento == 'Para o terceiro andar!':
+        texto10 = [
+            [sg.Text(TEXTO['texto10'])],
+            [sg.Button('Um ataque total com todo o seu arsenal')],
+            [sg.Button('Se aproximar dele e tentar desarmá-lo para extrair alguma informação')] 
+            ] 
+        janela_10 = sg.Window('U.D.U.A.P.', texto10)
+        evento, valores = janela_10.read() 
+        janela_10.close()
+
+    if evento == 'Vamos até o fim do corredor':
+        texto11 = [
+            [sg.Text(TEXTO['texto11'])],
+            [sg.Button('Ir para o elevador principal'),sg.Button('Você quer tentar usar o elevador de serviço?')] 
+            ] 
+        janela_11 = sg.Window('U.D.U.A.P.', texto11)
+        evento, valores = janela_11.read() 
+        janela_11.close()
+
+    if evento == 'Usar o elevador com código':
+        texto12 = [
+            [sg.Text(TEXTO['texto12'])],
+            [sg.Button('Tentar novamente?'),sg.Button('Sair')]
+            ] 
+        janela_12 = sg.Window('U.D.U.A.P.', texto12)
+        evento, valores = janela_12.read()  
+        janela_12.close()
+
+    if evento == 'Atacar os terroristas':
+        texto13 = [
+            [sg.Text(TEXTO['texto13'])],
+            [sg.Button('Você não foi atingido')] 
+            ] 
+        janela_13 = sg.Window('U.D.U.A.P.', texto13)
+        evento, valores = janela_13.read() 
+        janela_13.close()
+
+    if evento == 'Entrar na porta da direita':
+        texto14 = [
+            [sg.Text(TEXTO['texto14'])],
+            [sg.Button('Vamos matar!'),sg.Button('Não vamos matar')] 
+            ] 
+        janela_14 = sg.Window('U.D.U.A.P.', texto14)
+        evento, valores = janela_14.read() 
+        janela_14.close()
+
+    if evento == 'Vamos verificar as portas':
+        texto15 = [
+            [sg.Text(TEXTO['texto15'])],
+            [sg.Button('Disparar contra o armário'),sg.Button('Vou investigar')] 
+            ] 
+        janela_15 = sg.Window('U.D.U.A.P.', texto15)
+        evento, valores = janela_15.read() 
+        janela_15.close()
+
+    if evento == 'Vamos para o combate':
+        texto16 = [
+            [sg.Text(TEXTO['texto16'])],
+            [sg.Button('Ir para o elevador principal')] 
+            ] 
+        janela_16 = sg.Window('U.D.U.A.P.', texto16)
+        evento, valores = janela_16.read()
+        janela_16.close() 
+
+    if evento == 'Um ataque total com todo o seu arsenal':
+        texto17 = [
+            [sg.Text(TEXTO['texto17'])],
+            [sg.Button('Ir para o elevador principal'),sg.Button('Revistar as portas')] 
+            ] 
+        janela_17 = sg.Window('U.D.U.A.P.', texto17)
+        evento, valores = janela_17.read() 
+        janela_17.close()
+
+    if evento == 'Abrir a porta e atacar':
+        texto18 = [
+            [sg.Text(TEXTO['texto18'])],
+            [sg.Button('Armadura está danificada'),sg.Button('Minha armadura está OK')] 
+            ] 
+        janela_18 = sg.Window('U.D.U.A.P.', texto18)
+        evento, valores = janela_18.read() 
+        janela_18.close()
+
+    if evento == '???':
+        texto19 = [
+            [sg.Text(TEXTO['texto19'])],
+            [sg.Button('Usar Vitor como escudo'),sg.Button('Vamos para o combate!')] 
+            ] 
+        janela_19 = sg.Window('U.D.U.A.P.', texto19)
+        evento, valores = janela_19.read() 
+        janela_19.close()
+
+    if evento == 'Você quer tentar usar o elevador de serviço?':
+        texto20 = [
+            [sg.Text(TEXTO['texto20'])],
+            [sg.Button('Tentar novamente?'),sg.Button('Sair')]
+            ] 
+        janela_20 = sg.Window('U.D.U.A.P.', texto20)
+        evento, valores = janela_20.read()  
+        janela_20.close()
+
+    if evento == 'Vamos para o segundo andar!':
+        texto21 = [
+            [sg.Text(TEXTO['texto21'])],
+            [sg.Button('Ver o que tem nas caixas'),sg.Button('Atacar os terroristas')],
+            [sg.Button('Ir para o elevador principal')] 
+            ] 
+        janela_21 = sg.Window('U.D.U.A.P.', texto21)
+        evento, valores = janela_21.read() 
+        janela_21.close()
+
+    if evento == 'Entrar na porta da esquerda':
+        texto22 = [
+            [sg.Text(TEXTO['texto22'])],
+            [sg.Button('Vamos para o quinto andar!')] 
+            ] 
+        janela_22 = sg.Window('U.D.U.A.P.', texto22)
+        evento, valores = janela_22.read() 
+        janela_22.close()
+
+    if evento == 'Siga pelo elevador':
+        texto23 = [
+            [sg.Text(TEXTO['texto23'])],
+            [sg.Button('Você quer tentar usar o elevador de serviço?'),sg.Button('Buscar ajuda')] 
+            ] 
+        janela_23 = sg.Window('U.D.U.A.P.', texto23)
+        evento, valores = janela_23.read() 
+        janela_23.close()
+
+    if evento == 'Se aproximar dele e tentar desarmá-lo':
+        texto24 = [
+            [sg.Text(TEXTO['texto24'])],
+            [sg.Button('Vou matar!'),sg.Button('Deixá-lo inconsciente'),] 
+            ] 
+        janela_24 = sg.Window('U.D.U.A.P.', texto24)
+        evento, valores = janela_24.read() 
+        janela_24.close()
+
+    if evento == 'Armadura está danificada':
+        texto25 = [
+            [sg.Text(TEXTO['texto25'])],
+            [sg.Button('Tentar novamente?'),sg.Button('Sair')]
+            ] 
+        janela_25 = sg.Window('U.D.U.A.P.', texto25)
+        evento, valores = janela_25.read()  
+        janela_25.close()
+
+    if evento == 'Vamos para o quinto andar!':
+        texto26 = [
+            [sg.Text(TEXTO['texto26'])],
+            [sg.Button('Entrar na porta em frente'),sg.Button('Entrar na porta da direita')],
+            [sg.Button('Entrar na porta da esquerda'),sg.Button('Ir para o elevador principal')] 
+            ] 
+        janela_26 = sg.Window('U.D.U.A.P.', texto26)
+        evento, valores = janela_26.read() 
+        janela_26.close()
+
+    if evento == 'Para o quarto andar!':
+        texto27 = [
+            [sg.Text(TEXTO['texto27'])],
+            [sg.Button('Tentar novamente?'),sg.Button('Sair')]
+            ] 
+        janela_27 = sg.Window('U.D.U.A.P.', texto27)
+        evento, valores = janela_27.read()  
+        janela_27.close()
+
+    if evento == 'Deixá-lo inconsciente':
+        texto29 = [
+            [sg.Text(TEXTO['texto29'])],
+            [sg.Button('Revistar as portas'),sg.Button('Ir para o elevador principal'),] 
+            ] 
+        janela_29 = sg.Window('U.D.U.A.P.', texto29)
+        evento, valores = janela_29.read() 
+        janela_29.close()
+
+    if evento == 'Vamos matar!':
+        texto30 = [
+            [sg.Text(TEXTO['texto30'])],
+            [sg.Button('Vamos para o quinto andar!')] 
+            ] 
+        janela_30 = sg.Window('U.D.U.A.P.', texto30)
+        evento, valores = janela_30.read() 
+        janela_30.close()
+
+    if evento == 'Revistar as portas':
+        texto31 = [
+            [sg.Text(TEXTO['texto31'])],
+            [sg.Button('Ir para o elevador principal')] 
+            ] 
+        janela_31 = sg.Window('U.D.U.A.P.', texto31)
+        evento, valores = janela_31.read() 
+        janela_31.close()
+
+    if evento == 'Vamos para o combate!':
+        texto32 = [
+            [sg.Text(TEXTO['texto32'])],
+            [sg.Button('Vitor morreu!!!')] 
+            ] 
+        janela_32 = sg.Window('U.D.U.A.P.', texto32)
+        evento, valores = janela_32.read()
+        sg.theme('BluePurple') 
+        janela_32.close()
+ 
+    if evento == 'Revistar as portas':
+        texto33 = [
+            [sg.Text(TEXTO['texto33'])],
+            [sg.Button('Ir para o elevador principal')] 
+            ] 
+        janela_33 = sg.Window('U.D.U.A.P.', texto33)
+        evento, valores = janela_33.read() 
+        janela_33.close()
+
+    if evento == 'Buscar ajuda':
+        texto35 = [
+            [sg.Text(TEXTO['texto35'])],
+            [sg.Button('Tentar novamente?'),sg.Button('Sair')]
+            ] 
+        janela_35 = sg.Window('U.D.U.A.P.', texto35)
+        evento, valores = janela_35.read()  
+        janela_35.close()
+
+    if evento == 'Vou investigar':
+        texto36 = [
+            [sg.Text(TEXTO['texto36'])],
+            [sg.Button('Siga pelo elevador')] 
+            ] 
+        janela_36 = sg.Window('U.D.U.A.P.', texto36)
+        evento, valores = janela_36.read() 
+        janela_36.close()
+
+    if evento == 'Ir para o elevador principal':
+        texto37 = [
+            [sg.Text(TEXTO['texto37'])],
+            [sg.Button('Vamos para o sexto andar!'),sg.Button('Vamos para o quinto andar!')] ,
+            [sg.Button('Para o quarto andar!'),sg.Button('Para o terceiro andar!'),sg.Button('Vamos para o segundo andar!')] 
+            ] 
+        janela_37 = sg.Window('U.D.U.A.P.', texto37)
+        evento, valores = janela_37.read() 
+        janela_37.close()
+
+    if evento == 'Você não foi atingido':
+        texto38 = [
+            [sg.Text(TEXTO['texto38'])],
+            [sg.Button('Vamos verificar as portas'),sg.Button('Siga pelo elevador'),] 
+            ] 
+        janela_38 = sg.Window('U.D.U.A.P.', texto38)
+        evento, valores = janela_38.read() 
+        janela_38.close()
+
+    if evento == 'Disparar contra o armário':
+        texto39 = [
+            [sg.Text(TEXTO['texto39'])],
+            [sg.Button('Siga pelo elevador')] 
+            ] 
+        janela_39 = sg.Window('U.D.U.A.P.', texto39)
+        evento, valores = janela_39.read() 
+        janela_39.close()    
+
+    if evento == 'Vitor morreu!!!':
+        texto40 = [
+            [sg.Text(TEXTO['texto40'])],
+            [sg.Button('Parabéns')] 
+            ] 
+        janela_40 = sg.Window('U.D.U.A.P.', texto40)
+        evento, valores = janela_40.read() 
+        janela_40.close()  
+
+
+janela_principal.close()
